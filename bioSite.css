@@ -1,3 +1,52 @@
+/*
+    Fonts{
+        font-family: Lobster Two,cursive,sans-serif;
+        font-family: 'Noto Sans JP', sans-serif;
+    }
+    Colors{
+        purple - #A1588C
+        darker purple - #79105A
+        gold- #D7A53C
+        black - #211B24
+    }
+
+*/
 body{
     font-weight: 400;
+}
+
+header{
+
+}
+
+.name{
+
+}
+
+.topic{
+
+}
+
+#container{
+
+}
+
+#navbar{
+
+}
+
+#navbar ul li{
+
+}
+
+#navbar a{
+
+}
+
+#navbar a:hover{
+
+}
+
+#navbar a:visited{
+    
 }
