@@ -4,49 +4,199 @@
         font-family: 'Noto Sans JP', sans-serif;
     }
     Colors{
-        purple - #A1588C
-        darker purple - #79105A
+        purple - #A1588C --- rgba(161,88,140)
+        darker purple - #79105A -- rgba(121,16,90)
         gold- #D7A53C
         black - #211B24
     }
 
+    background: rgba(161,88,140,0.75);
+
 */
 body{
     font-weight: 400;
+    height: 100%;
+    padding: 0 0 5px 0;
+    margin: auto;
+
+}
+header{
+    background: rgba(121,16,90,.75);
+    padding: 5px;    
 }
 
-header{
+h2{
+    color: #211B24;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+}
 
+
+footer p{
+    color: white;
+    font-weight: 400;
+    float: right;
+    padding-right: 10px;
+    font-style: italic;
+    font-size: .75em;
+    border-top: 2px solid white;
+}
+
+figcaption{
+    font-family: 'Noto Sans JP', sans-serif;    
+    font-weight: 300;
+    font-style: italic;
+    font-size: .75em;
+}
+
+figure{
+    float:left;
 }
 
 .name{
+    font-family: Lobster Two,cursive,sans-serif;
+    font-weight: 700;
+    color: #D7A53C;
+    font-size: 50px;
+    text-align: center;
+    padding: none;
+}
 
+.portrait{
+    height: 200px;
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.biography{
+    color: #211B24;
+    font-family: 'Noto Sans JP', sans-serif;    
+    margin-bottom: 5px;
 }
 
 .topic{
+    font-family: Lobster Two,cursive,sans-serif;
+    font-weight: 400;    
+}
 
+.about{
+    text-align: center;
+    color: #211B24;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+}
+
+.photo-title{
+    color: #211B24;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+    text-align: center;
 }
 
 #container{
+    color: #211B24;
+    margin: auto;
+    height: auto;
+    width: auto;
+}
+
+body{
+    background: rgba(161,88,140,0.75);
+    margin: auto;   
+}
+
+#navbar {
+    overflow: hidden;
+    background: rgba(121,16,90,0.75);
+    text-align: center;    
+    border-bottom: 5px solid  #D7A53C;
+    padding-top: 0;
 
 }
 
-#navbar{
+#navbar ul li{    
+    font-weight: 700;
+    font-family: Lobster Two,cursive,sans-serif;
+    font-size: larger;
+    list-style-type: none;
+    display: inline;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #D7A53C;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:visited{
+    color: #ac832a;
+}
+
+#image-gallery{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 10%;
+}
+#information{
+    display: grid;
+    color: #211B24;
+    font-family: 'Noto Sans JP', sans-serif;   
+    overflow: auto;
+}
+
+#information img{
+    height: 200px;
+    width: 200px;
+}
+
+.topic-left{
+    float: left;
+}
+
+.details-left{
+    float: left;
+}
+
+.details-right{
+    float: right;
+}
+
+.float-right{
+    float: right;
+    width: 200px;
+    height: 200px;
+    padding-left: 10px;
+}
+
+.float-left{
+    float: left;
+    width: 200px;
+    height: 200px;
+    padding-right: 10px;
+}
+
+.photo {    
+    border-left: 2px solid #211B24;
+    border-right: 1px solid #211B24;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.photo img{
+    height: 200px;
+    width: 150px;
 
 }
 
-#navbar ul li{
-
-}
-
-#navbar a{
-
-}
-
-#navbar a:hover{
-
-}
-
-#navbar a:visited{
-    
+.photo-content{
+    color: #211B24;
+    font-family: 'Noto Sans JP', sans-serif;    
+    padding-top: 20px;
 }
