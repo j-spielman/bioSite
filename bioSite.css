@@ -32,14 +32,14 @@ h2{
 }
 
 
-footer p{
+footer {
     color: white;
     font-weight: 400;
-    float: right;
-    padding-right: 10px;
+    width: 100%;
+    margin: 0 auto;    
     font-style: italic;
     font-size: .75em;
-    border-top: 2px solid white;
+    
 }
 
 figcaption{
@@ -97,7 +97,8 @@ figure{
 
 #container{
     color: #211B24;
-    margin: auto;
+    margin-left: 10%;
+    margin-right: 10%;
     height: auto;
     width: auto;
 }
@@ -135,7 +136,7 @@ a:hover{
     text-decoration: underline;
 }
 
-a:visited{
+.current{
     color: #ac832a;
 }
 
