@@ -184,16 +184,22 @@ a:hover{
 }
 
 .photo {    
-    border-left: 2px solid #211B24;
-    border-right: 1px solid #211B24;
+    border-left: 2px solid #D7A53C;
+    border-right: 2px solid #D7A53C;
     border-radius: 30px;
     padding: 10px;
+    margin-left: 10px;
 }
 
 .photo img{
     height: 200px;
     width: 150px;
 
+}
+
+.playhouse{
+    height: 150px;
+    width: 300px;
 }
 
 .photo-content{
